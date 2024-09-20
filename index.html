@@ -1,0 +1,82 @@
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Visit-card</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-bar"></div>
+      <div class="gradient-bar"></div>
+    </header>
+
+    <img src="img/sun.png" alt="Theme" id="themeSwitcher2" class="theme-image">
+    <img src="img/languageW.png" alt="Language" id="languageSwitcher" class="theme-language">
+
+    <h1 id="header" class="headerText">Загрузка...</h1>
+
+    <main>
+
+      <div class="container">
+        <div class="square">
+            <h1 class="title" id="title">Заголовок</h1>
+            <p class="info" id="info">Краткая информация</p>
+            <span class="link" id="link" onclick="toggleText()">Читать больше информации о мне...</span>
+        </div>
+        <div class="image">
+            <img src="img/rick.jpg" alt="Avatar" />
+        </div>
+      </div>
+
+      <div class="container3">
+        <div class="square3" id="target">
+            <button class="buttonToContacts" id="buttonToContacts">/contacts</button>
+            <button class="buttonToProjects" id="buttonToProjects">/projects</button>
+        </div>
+      </div>
+
+      <div class="container2">
+        <div class="square2" >
+            <div class="otherInfo" id="otherInfo">Большой текст, который появляется при нажатии на гиперссылку.</div>
+        </div>
+      </div>
+
+      <div id="socialPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2 id="mysocial">Мои соц.сети</h2>
+            <ul class="social-list">
+                <li>
+                    <a href="https://vk.com/id569845312" style="color: rgb(255, 255, 255);" target="_blank">
+                        <img class="social-icon" src="/img/vkontakteW.png" alt="VKontakte" /> VKontakte
+                    </a>
+                </li>
+                <li>
+                    <a href="https://t.me/twodust" style="color: rgb(255, 255, 255);"target="_blank">
+                        <img class="social-icon" src="/img/telegramW.png" alt="Telegram" /> Telegram
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank">
+                        <img class="social-icon" src="/img/gmailW.png" alt="Gmail" /> Ustygov.d.d.04@gmail.com
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/sn0ycat" style="color: rgb(255, 255, 255);" target="_blank">
+                        <img class="social-icon" src="/img/githubW.png" alt="Github" /> Github
+                    </a>
+                </li>
+                <li>
+                    <a href="https://steamcommunity.com/id/SnoyCaT/" style="color: rgb(255, 255, 255);" target="_blank">
+                        <img class="social-icon" src="/img/steamW.png" alt="Steam" /> Steam
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>

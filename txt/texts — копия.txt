@@ -1,0 +1,22 @@
+{
+    "ru": {
+	"header": "Привет! Это моя визитная карточка",
+        "title": "Привет, я Данила",
+        "info": "Бла бла бла бла бла бла бла бла бла бла бла бла бла",
+        "otherInfo": "Бла бла бла бла бла бла бла бла бла бла бла бла",
+	"linkOtherInfoON": "Читать больше информации о мне...",
+	"linkOtherInfoOFF": "Скрыть информацию обо мне...",
+	"buttonToContacts": "Ссылки на мои соц.сети",
+        "buttonToProjects": "Мои проекты"
+    },
+    "en": {
+	"header": "Hi! This is my visit-card",
+        "title": "Hey, I'm Danila",
+        "info": "bla bla bla bla bla bla bla bla bla bla bla blab la",
+        "otherInfo": "bla bla bla bla bla bla bla bla bla bla bla",
+        "linkOtherInfoON": "Read more information about me...",
+	"linkOtherInfoOFF": "Hide information about me...",
+	"buttonToContacts": "Links to my social",
+	"buttonToProjects": "My projects"
+    }
+}

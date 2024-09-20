@@ -1,0 +1,24 @@
+{
+    "ru": {
+	    "header": "Моя визитная карточка",
+        "title": "Привет, я Данила!",
+        "info": "Я - студент 3го курса Московского Технического Университета Связи и Информатики.\n\nМое направление 02.03.02 - 'Фундаментальная информатика и информационные технологии' группа БФИ2204.\n\nНа данном сайте вы сможете найти мое портфолио, контакты, и немного информации обо мне",
+        "otherInfo": "ОТКУДА Я\n\nРодился в городе Омск. До 18 лет жил и учился в селе. В 11 классе взял себя в руки, хорошо подготовился к экзаменам, и достаточно не плохо сдал ЕГЭ. Смог поступить в Москву, и вот, собственно, я тут =)\n\nХОББИ\n\nЗа свою жизнь имел десятки различных хобби, всего не объять. Однако такие занятия как спорт, музыка, программирование и видеоигры притягивают меня больше всего.\n\nПРОЕКТЫ\n\nНа самом деле я начинал реализовывать огромное количество идей, однако до стадии готового продукта дошли буквально единицы. Именно поэтому в портфолио представлены только две работы\n\nПРОГРАММИРОВАНИЕ\n\nНа вопрос что меня больше привлекает, frontend или backend, я однозначно отвечу второе(Однако т.к. все проекты реализовываю в одиночку, уже привык к fullstack) Надеюсь что в ближайшем будущем устроюсь на работу/подработку по специальности.",
+	    "linkOtherInfoON": "Читать больше информации обо мне...",
+	    "linkOtherInfoOFF": "Скрыть информацию обо мне...",
+	    "buttonToContacts": "Ссылки на мои соц.сети",
+        "buttonToProjects": "Мои проекты",
+        "mysocial": "Мои соц.сети"
+    },
+    "en": {
+	    "header": "My visit-card",
+        "title": "Hey, I'm Danila!",
+        "info": "I am a 3rd year student of the Moscow Technical University of Communications and Informatics.\n\nMy direction 02.03.02 is 'Fundamental Computer Science and Information Technology' BFI 2204 group.\n\nOn this site you can find my portfolio, contacts, and some information about me",
+        "otherInfo": "WHERE AM I FROM\n\nHe was born in Omsk. He lived and studied in the village until he was 18. In the 11th grade, he pulled himself together, prepared well for the exams, and passed the Unified State Exam quite well. I was able to enroll in Moscow, and here I am, actually =)\n\nHOBBY\n\nI've had dozens of different hobbies in my life, I can't grasp everything. However, activities such as sports, music, programming and video games attract me the most.\n\nPROJECTS\n\nIn fact, I started to implement a huge number of ideas, but literally only a few reached the stage of the finished product. That is why there are only two works in the portfolio\n\nPROGRAMMING\n\nTo the question of what attracts me more, frontend or backend, I will definitely answer the second (However, since I implement all projects alone, I am already used to fullstack) I hope that in the near future I will get a job/part-time job in my specialty.",
+        "linkOtherInfoON": "Read more information about me...",
+	    "linkOtherInfoOFF": "Hide information about me...",
+	    "buttonToContacts": "Links to my social",
+	    "buttonToProjects": "My projects",
+        "mysocial": "My social"
+    }
+}

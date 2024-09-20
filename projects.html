@@ -1,0 +1,63 @@
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style_p.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-bar"></div>
+      <div class="gradient-bar"></div>
+    </header>
+
+    <img src="img/sun.png" alt="Theme" id="themeSwitcher2" class="theme-image">
+    <img src="img/languageW.png" alt="Language" id="languageSwitcher" class="theme-language">
+
+    <h1 id="header" class="headerText">Загрузка...</h1>
+
+    <main>
+
+      <div class="container">
+        <div class="square">
+            <h1 class="title" id="title_test">Заголовок</h1>
+            <p class="info" id="info_test">Краткая информация</p>
+        </div>
+        <div class="slider"  id="slider1">
+          <div class="slides" id="slides1">
+              <div class="slide"><img src="/img/test1.jpg" alt="Изображение 1"></div>
+              <div class="slide"><img src="/img/test2.jpg" alt="Изображение 2"></div>
+              <div class="slide"><img src="/img/test3.jpg" alt="Изображение 3"></div>
+              <div class="slide"><img src="/img/test4.jpg" alt="Изображение 1"></div>
+              <div class="slide"><img src="/img/test5.jpg" alt="Изображение 2"></div>
+              <div class="slide"><img src="/img/test6.jpg" alt="Изображение 3"></div>
+          </div>
+          <button class="button prev" onclick="moveSlide(-1, 'slider1')">&#10094;</button>
+          <button class="button next" onclick="moveSlide(1, 'slider1')">&#10095;</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="square square2">
+            <h1 class="title" id="title_Website">Заголовок</h1>
+            <p class="info" id="info_Website">Краткая информация</p>
+        </div>
+        <div class="slider slider2" id="slider2">
+          <div class="slides" id="slider2">
+              <div class="slide"><img src="/img/visit1.jpg" alt="Изображение 1"></div>
+              <div class="slide"><img src="/img/visit2.jpg" alt="Изображение 2"></div>
+              <div class="slide"><img src="/img/visit3.jpg" alt="Изображение 3"></div>
+              <div class="slide"><img src="/img/visit4.jpg" alt="Изображение 4"></div>
+              <div class="slide"><img src="/img/visit5.jpg" alt="Изображение 3"></div>
+              <div class="slide"><img src="/img/visit6.jpg" alt="Изображение 4"></div>
+          </div>
+          <button class="button prev" onclick="moveSlide(-1, 'slider2')">&#10094;</button>
+          <button class="button next" onclick="moveSlide(1, 'slider2')">&#10095;</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/index_p.js"></script>
+    
+  </body>
+</html>
